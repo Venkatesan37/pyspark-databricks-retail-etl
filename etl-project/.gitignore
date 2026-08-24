@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark / Delta local metastore artifacts (if run locally)
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS
+.DS_Store
+
+# Databricks
+.databricks/
+.databrickscfg
+
+# Large generated data (keep only the small sample committed)
+data/sample/retail_sales_raw.csv.bak
