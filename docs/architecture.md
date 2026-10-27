@@ -27,7 +27,7 @@ flowchart LR
 
     subgraph Consumption
         I[Databricks SQL Dashboard]
-        J[Power BI] (Optional)
+        J[Power BI]
     end
 
     A -->|"01_bronze_ingestion.py"| B
